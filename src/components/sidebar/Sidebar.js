@@ -1,5 +1,6 @@
 import React from "react";
 import "./Sidebar.css";
+import SidebarChat from "../sidebarChat/SidebarChat";
 
 import { Avatar, IconButton } from "@material-ui/core";
 
@@ -33,7 +34,9 @@ const Sidebar = () => {
           <input placeholder="Procure ou adicione um novo chat" type="text" />
         </div>
       </div>
-      <div className="sidebar__chats"></div>
+      <div className="sidebar__chats">
+        <SidebarChat addNewChat />
+      </div>
     </div>
   );
 };

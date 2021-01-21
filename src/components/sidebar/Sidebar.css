@@ -54,4 +54,7 @@
 }
 
 .sidebar__chats {
+  flex: 1;
+  overflow: auto;
+  background-color: #fff;
 }
